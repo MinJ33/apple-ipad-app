@@ -4,6 +4,9 @@ body{
   font-family: "Roboto","Noto Sans KR", sans-serif;
   word-break: keep-all; /* Word breaks should not be used for Korean text. */
 }
+a{
+  text-decoration: none;
+}
 
 /* HEADER */
 header{
@@ -86,4 +89,25 @@ header .basket .arrow::before{
   position: absolute;
   top: 0;
   left: 50%;
+}
+header .basket .message{
+  padding: 30px 0;
+  font-size: 13px;
+  color: #6E6E6E;
+  text-align: center;
+}
+header .basket ul{
+  margin-top: 10px;
+}
+header .basket ul li{
+  border-top: 1px soild #D2D2D2;
+}
+header .basket ul li a{
+  display: block;
+  padding: 14px;
+  font-size: 13px;
+  color: #0071E3;
+}
+header .basket ul li a:hover{
+  text-decoration: none;
 }
