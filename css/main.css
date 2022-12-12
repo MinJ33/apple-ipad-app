@@ -60,6 +60,7 @@ header ul.menu li a:hover{
 
 /* HEADER / MENU / BASKET */
 header .basket{
+  display: none;
   width: 290px;
   padding: 10px 20px;
   border: 1px solid #D2D2D2;
@@ -69,6 +70,9 @@ header .basket{
   position: absolute;
   top: calc(100% + 4px);
   right: -6px;
+}
+header .basket.show{
+  display: block;
 }
 header .basket .arrow {
   width: 20px;
