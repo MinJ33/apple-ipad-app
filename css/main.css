@@ -1,9 +1,16 @@
+html.fixed{
+  position: fixed;
+  /* scrolling mechanism will always exist */
+  overflow-y: scroll; 
+  width: 100%;
+}
 body{
   font-size: 16px;
   line-height: 1;
   font-family: "Roboto","Noto Sans KR", sans-serif;
   word-break: keep-all; /* Word breaks should not be used for Korean text. */
   color: #1d1d1d;
+  height: 10000px;
 }
 a{
   color: #1d1d1d;
