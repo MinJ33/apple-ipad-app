@@ -242,3 +242,38 @@ header .search .autocompletes li{
   transition-delay: .2s;
   transform: translate(0, 0);
 }
+
+/* NAVIGATION */
+nav{
+  background-color: rgba(255, 255, 255, .7);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid #D2D2D2;
+  position: sticky;
+  top: 0;
+  z-index: 8;
+}
+nav .inner{
+  max-width: 1000px;
+  height: 52px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+nav h1{
+  flex-grow: 1;
+  font-size: 22px;
+  font-weight: 500;
+}
+nav .menu{
+  display: flex;
+  gap: 12px;
+  margin-right: 18px;
+}
+nav .menu li a{
+  display: block;
+  padding: 6px;
+  font-size: 11px;
+}
+nav .menu li:hover a{
+  color: #0071E3;
+}
