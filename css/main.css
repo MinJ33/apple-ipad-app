@@ -113,6 +113,27 @@ a.link::after{
   left: 0;
 }
 
+/* INFO */
+.infos{
+  display: flex;
+  flex-direction: column;
+}
+.infos.infos--center{
+  justify-content: center;
+}
+.infos.infos--end{
+  justify-content: flex-end;
+}
+.info{
+  max-width: 100px;
+  margin-bottom: 24px;
+}
+.info .icon{
+  width: 100px;
+  height: 100px;
+  
+}
+
 /* HEADER */
 header{
   --header-height: 44px;
