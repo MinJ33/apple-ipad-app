@@ -122,6 +122,9 @@ a.link::after{
 .infos{
   display: flex;
   flex-direction: column;
+  position: relative;
+  /* z-index only works on positioned elements */
+  z-index: 1;
 }
 .infos.infos--center{
   justify-content: center;
