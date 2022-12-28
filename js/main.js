@@ -68,7 +68,7 @@ function hideSearch() {
   searchInputEl.value = ''
 }
 
-// Observation of element visibility
+// Intersection Observer
 const io = new IntersectionObserver(function (entries) {
   entries.forEach(function(entry){
     if (!entry.isIntersecting) {
