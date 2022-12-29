@@ -557,6 +557,28 @@ nav .menu li.active:hover a {
   transform: translate(543px, 908px);
 }
 
+/* Display */
+.display{
+  margin-top: 450px;
+}
+.display .notes h1{
+  width: 630px;
+  height: 370px;
+  background-image: url("../images/display_headline.png");
+  transform: translate(104px, 0);
+}
+.display .notes .figures{
+  height: 814px;
+  margin-top: 26px;
+}
+.display .notes figcaption{
+  width: 145px;
+  height: 45px;
+  background-image: url("../images/display_notes_caption.png");
+  transform: translate(707px, -16px);
+}
+
+
 @keyframes sprite-icon {
   /* 1~10 */
   0.00% { background-position: 0 0; }
