@@ -627,7 +627,19 @@ nav .menu li.active:hover a {
   background-image: url("../images/camera_hardware_caption.png");
   transform: translate(-116px, 383px);
 }
-
+/* Camera / Edit */
+.camera .edit .figures{
+  height: 910px;
+}
+.camera .edit .figure{
+  transform: translate(20px, 0);
+}
+.camera .edit .figcaption{
+  width: 130px;
+  height: 47px;
+  background-image: url("../images/camera_edit_caption.png");
+  transform: translate(27px, 905px);
+}
 
 
 
