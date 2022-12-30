@@ -639,7 +639,8 @@ nav .menu li.active:hover a {
 }
 .camera .stage .controller--play:hover,
 .camera .stage .controller--pause:hover{
-  text-decoration: none;
+  text-decoration: underline;
+
 }
 .camera .stage .controller--play.hide,
 .camera .stage .controller--pause.hide{
