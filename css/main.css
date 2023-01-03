@@ -748,8 +748,20 @@ nav .menu li.active:hover a {
   justify-content: space-around;
 }
 
-
-
+/* iPadOs */
+.ipados{
+  margin-top: 212px;
+}
+.ipados h1{
+  width: 530px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url("../images/ipados_headline.png");
+}
+.ipados .infos{
+  margin-top: 44px;
+  align-items: flex-end;
+}
 
 @keyframes sprite-icon {
   /* 1~10 */
