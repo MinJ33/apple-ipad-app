@@ -798,6 +798,21 @@ nav .menu li.active:hover a {
   transform: translate(511px, 470px);
 }
 
+/* Apps */
+.apps{
+  margin-top: 368px;
+}
+.apps h1{
+  width: 500px;
+  height: 264px;
+  background-image: url("../images/apps_headline.png");
+  transform: translate(17px, 0);
+}
+.apps .infos{
+  margin-top: 36px;
+  margin-left: 82px;
+}
+
 @keyframes sprite-icon {
   /* 1~10 */
   0.00% { background-position: 0 0; }
