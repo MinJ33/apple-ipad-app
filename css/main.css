@@ -1003,6 +1003,17 @@ nav .menu li.active:hover a {
   text-align: center;
 }
 
+/* Compare */
+.compare{
+  padding: 20px 20px 0;
+  background-color: var(--color-section);
+  text-align: center;
+}
+.compare .items{
+  
+}
+
+
 @keyframes sprite-icon {
   /* 1~10 */
   0.00% { background-position: 0 0; }
