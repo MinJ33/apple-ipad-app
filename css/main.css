@@ -1145,12 +1145,6 @@ footer .breadcrumbs a::after{
 footer .breadcrumbs a:last-child::after{
   display: none;
 }
-
-
-
-
-
-
 @keyframes sprite-icon {
   /* 1~10 */
   0.00% { background-position: 0 0; }
