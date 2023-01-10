@@ -485,6 +485,11 @@ nav .menu li.active:hover a {
   color: var(--color-font);
 }
 
+/* MAIN */
+main {
+  overflow-x: hidden;
+}
+
 /* HERO */
 .hero{
  background-color: var(--color-section);
