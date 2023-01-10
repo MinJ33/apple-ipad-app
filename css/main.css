@@ -1174,6 +1174,17 @@ footer .navigations .map li a{
 footer .navigations .map li a:hover{
   text-decoration: underline;
 }
+footer .how-to-shop{
+ font-size: 12px;
+ line-height: 1.4;
+ color: var(--color-font-darkgray);
+}
+footer .how-to-shop a{
+  color: var(--color-link);
+}
+footer .how-to-shop a:hover{
+  text-decoration: underline;
+}
 
 
 @keyframes sprite-icon {
