@@ -236,6 +236,9 @@ header ul.menu > li{
   position: relative;
   transition: .4s;
 }
+header ul.menu > li.menu-starter{
+  display: none;
+}
 header ul.menu > li > a{
   padding: 0 10px;
   font-size: 11px;
@@ -453,9 +456,17 @@ header .search .autocompletes li{
   header ul.menu > li{
     display: none;
   }
+  header ul.menu > li.menu-starter,
   header ul.menu > li.apple-logo,
   header ul.menu > li.basket-starter{
     display: flex;
+  }
+  header ul.menu > li.menu-starter span{
+    display: block;
+    width: 15px;
+    height: 1px;
+    background-color: var(--color-white);
+    margin-bottom: 6px;
   }
 }
 
