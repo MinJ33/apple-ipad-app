@@ -443,6 +443,22 @@ header .search .autocompletes li{
   transform: translate(0, 0);
 }
 
+/* when the screen width is less than 1000px */
+@media (max-width: 1000px) {
+  header .inner{
+    padding: 0 10px;
+  }
+}
+@media (max-width: 740px) {
+  header ul.menu > li{
+    display: none;
+  }
+  header ul.menu > li.apple-logo,
+  header ul.menu > li.basket-starter{
+    display: flex;
+  }
+}
+
 /* NAVIGATION */
 nav {
   --nav-height: 52px;
