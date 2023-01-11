@@ -475,7 +475,7 @@ header .search .autocompletes li{
   header.menuing ul.menu > li.menu-starter span:first-child{
     transform: translate(0, 3.5px) rotate(45deg);
   }
-  header.menuing ul.menu > li.menu-starter span:first-child{
+  header.menuing ul.menu > li.menu-starter span:last-child{
     transform: translate(0, -3.5px) rotate(-45deg);
   }
 }
