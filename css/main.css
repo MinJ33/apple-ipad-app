@@ -467,6 +467,16 @@ header .search .autocompletes li{
     height: 1px;
     background-color: var(--color-white);
     margin-bottom: 6px;
+    transition: .4s;
+  }
+  header ul.menu > li.menu-starter span:last-child{
+    margin-bottom: 0;
+  }
+  header.menuing ul.menu > li.menu-starter span:first-child{
+    transform: translate(0, 3.5px) rotate(45deg);
+  }
+  header.menuing ul.menu > li.menu-starter span:first-child{
+    transform: translate(0, -3.5px) rotate(-45deg);
   }
 }
 
