@@ -222,6 +222,7 @@ header{
   background-color: var(--color-header);
   position: relative;
   z-index: 9;
+  transition: .4s;
 }
 header .inner{
   max-width: 1020px;
@@ -609,6 +610,26 @@ header .search .autocompletes li{
     visibility: visible;
     opacity: 1;
     transform: translate(0, 0);
+  }
+  header.menuing.searching--mobile{
+    transform: translate(0, -30px);
+  }
+  header.menuing.searching--mobile .search .textfield{
+    width: calc(100% - 55px);
+  }
+  header.menuing.searching--mobile .search .autocompletes{
+    transform: translate(0, 0);
+    visibility: visible;
+    opacity: 1;
+  }
+  header.menuing.searching--mobile .search .search-canceler{
+    visibility: visible;
+    opacity: 1;
+  }
+  header.menuing.searching--mobile .clone-menu{
+    transform: translate(0, 100px);
+    visibility: hidden;
+    opacity: 0;
   }
 }
 
