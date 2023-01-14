@@ -707,8 +707,32 @@ nav .menu li.active:hover a {
     right: -9px;
   }
   nav .menu{
+    position: absolute;
+    display: block;
+    top: var(--nav-height);
+    left: 0;
+    width: 100%;
+    padding: 10px 40px 30px;
+    box-sizing: border-box;
     visibility: hidden;
     opacity: 0;
+    transform: translate(0, -50px);
+    transition: .4s;
+  }
+  nav .menu li{
+    border-bottom: 1px solid var(--color-border);
+  }
+  nav .menu li:last-child{
+    border-bottom: none;
+  }
+  nav .menu li a{
+    padding: 16px 0;
+    font-size: 14px;
+  }
+  nav.menuing .menu{
+    visibility: visible;
+    opacity: 1;
+    transform: translate(0, 0);
   }
 }
 

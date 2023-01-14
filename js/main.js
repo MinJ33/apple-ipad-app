@@ -113,6 +113,17 @@ menuStarterEl.addEventListener('click', function() {
   }
 })
 
+const navEl = document.querySelector('nav')
+const navMenuToggleEl = navEl.querySelector('.menu-toggler')
+
+navMenuToggleEl.addEventListener('click', function () {
+  if(navEl.classList.contains('menuing')){
+    navEl.classList.remove('menuing')
+  }else{
+    navEl.classList.add('menuing')
+  }
+})
+
 
 // Intersection Observer
 const io = new IntersectionObserver(function (entries) {
