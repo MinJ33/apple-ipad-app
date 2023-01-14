@@ -115,15 +115,30 @@ menuStarterEl.addEventListener('click', function() {
 
 const navEl = document.querySelector('nav')
 const navMenuToggleEl = navEl.querySelector('.menu-toggler')
+const navMenuShadowEl = navEl.querySelector('.shadow')
 
 navMenuToggleEl.addEventListener('click', function () {
   if(navEl.classList.contains('menuing')){
-    navEl.classList.remove('menuing')
+    hideNavMenu()
   }else{
-    navEl.classList.add('menuing')
+    showNavMenu()
   }
 })
-
+navEl.addEventListener('click', function(event){
+  event.stopPropagation()
+})
+navMenuShadowEl.addEventListener('click', function(){
+  hideNavMenu()
+})
+window.addEventListener('click', function(){
+  hideNavMenu()
+})
+function showNavMenu(){
+  navEl.classList.add('menuing')
+}
+function hideNavMenu(){
+  navEl.classList.remove('menuing')
+}
 
 // Intersection Observer
 const io = new IntersectionObserver(function (entries) {
