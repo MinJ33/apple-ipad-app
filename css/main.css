@@ -214,6 +214,26 @@ a.link::after{
   font-size: 19.5px;
 }
 
+@media (max-width: 1000px){
+  .info {
+    max-width: 230px;
+  }
+  .infos--large .info{
+    max-width: 288px;
+  }
+  .info .icon{
+    transform: scale(.8);
+    margin: -30px 0 -24px -32px;
+  }
+  .info p{
+    font-size: 19px;
+    line-height: 1.4;
+  }
+  .info a.link{
+    margin-top: 24px;
+  }
+}
+
 /* Whitebox */
 .whitebox{
   max-width: 1386px;
@@ -996,6 +1016,56 @@ main {
   background-image: url("../images/power_create_caption.png");
   transform: translate(543px, 908px);
 }
+
+@media (max-width: 1000px){
+  .power{
+    margin-top: 80px;
+  }
+  .power .multiple-apps h1{
+    width: 310px;
+    height: 180px;
+  }
+  .power .multiple-apps .figures{
+    height: 503px;
+  }
+  .power .multiple-apps .figure{
+    transform: translate(71px, 0);
+  }
+  .power .multiple-apps .figures img{
+    width: 682px;
+  }
+  .power .multiple-apps .figcpation{
+    transform: scale(.8) translate(532px, -58px);
+  }
+  .power .arcade{
+    margin-top: 0;
+  }
+  .power .arcade .figures{
+    height: 480px;
+  }
+  .power .arcade figure{
+    transform: translate(-182px, -6px);
+  }
+  .power .arcade figure img{
+    width: 676px;
+  }
+  .power .arcade figcaption{
+    transform: scale(.8) translate(316px, 528px);
+  }
+  .power .create .figures{
+    height: 588px;
+  }
+  .power .create figure{
+    transform: translate(4px, -36px);
+  }
+  .power .create figure img{
+    width: 820px;
+  }
+  .power .create figcaption{
+    transform: scale(.8) translate(420px, 747px);
+  }
+}
+
 
 /* Display */
 .display{
