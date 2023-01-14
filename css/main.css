@@ -675,6 +675,43 @@ nav .menu li.active:hover a {
   color: var(--color-font);
 }
 
+@media (max-width: 740px) {
+  nav .menu-toggler{
+    width: 30px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+  }
+  nav .menu-toggler::before,
+  nav .menu-toggler::after{
+    content: "";
+    display: block;
+    width: 11px;
+    height: 1px;
+    background-color: var(--color-font-darkgray);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: .4s;
+  }
+  nav .menu-toggler::before{
+    transform: rotate(40deg);
+    left: -9px;
+  }
+  nav .menu-toggler::after{
+    transform: rotate(-40deg);
+    right: -9px;
+  }
+  nav .menu{
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
 /* MAIN */
 main {
   overflow-x: hidden;
