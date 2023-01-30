@@ -2001,7 +2001,20 @@ main {
     transform: scale(.8) translate(293px, 339px);
   }
 }
-
+@media (max-width: 740px) {
+  .privacy h1 {
+    width: 277px;
+    height: 136px;
+    margin: 0 auto;
+    transform: none;
+  }
+  .privacy .figures {
+    margin-top: 30px;
+  }
+  .privacy figure {
+    transform: translate(20px, 0);
+  }
+}
 
 /* Accessibility */
 .accessibility{
