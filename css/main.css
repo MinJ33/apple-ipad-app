@@ -1942,10 +1942,10 @@ main {
 }
 
 /* Privacy */
-.privacy {
+.privacy{
   margin-top: 238px;
 }
-.privacy h1 {
+.privacy h1{
   width: 482px;
   height: 237px;
   margin-left: auto;
@@ -1954,64 +1954,64 @@ main {
   position: relative;
   z-index: 1;
 }
-.privacy .infos {
+.privacy .infos{
   margin-top: 38px;
   align-items: flex-end;
   position: relative;
   z-index: 1;
 }
-.privacy figure {
+.privacy figure{
   transform: translate(-215px, -500px);
 }
-.privacy figcaption .caption-apple-id {
+.privacy figcaption .caption-apple-id{
   width: 170px;
   height: 26px;
   background-image: url("../images/privacy_caption_apple_id.png");
   transform: translate(195px, -13px);
 }
-.privacy figcaption .caption-touch-id {
+.privacy figcaption .caption-touch-id{
   width: 150px;
   height: 31px;
   background-image: url("../images/privacy_caption_touch_id.png");
   transform: translate(533px, 485px);
 }
 
-@media (max-width: 1000px) {
-  .privacy {
+@media (max-width: 1000px){
+  .privacy{
     margin-top: 120px;
   }
-  .privacy h1 {
+  .privacy h1{
     width: 368px;
     height: 182px;
     transform: translate(70px, 0);
   }
-  .privacy .infos {
+  .privacy .infos{
     margin-top: 24px;
   }
-  .privacy figure {
+  .privacy figure{
     transform: translate(-18px, -440px);
   }
-  .privacy figure img {
+  .privacy figure img{
     width: 441px
   }
-  .privacy figcaption .caption-apple-id {
+  .privacy figcaption .caption-apple-id{
     transform: scale(.8) translate(-22px, -18px);
   }
-  .privacy figcaption .caption-touch-id {
+  .privacy figcaption .caption-touch-id{
     transform: scale(.8) translate(293px, 339px);
   }
 }
-@media (max-width: 740px) {
-  .privacy h1 {
+@media (max-width: 740px){
+  .privacy h1{
     width: 277px;
     height: 136px;
     margin: 0 auto;
     transform: none;
   }
-  .privacy .figures {
+  .privacy .figures{
     margin-top: 30px;
   }
-  .privacy figure {
+  .privacy figure{
     transform: translate(20px, 0);
   }
 }
@@ -2031,6 +2031,44 @@ main {
 }
 .accessibility figure{
   transform: translate(470px, -620px);
+}
+
+@media (max-width: 1000px){
+  .accessibility{
+    margin-top: 86px;
+    margin-bottom: 120px;
+  }
+  .accessibility h1{
+    width: 287px;
+    height: 205px;
+  }
+  .accessibility .info{
+    max-width: 346px;
+  }
+  .accessibility figure{
+    transform: translate(401px, -504px);
+  }
+  .accessibility figure img{
+    width: 329px;
+  }
+}
+@media (max-width: 740px){
+  .accessibility{
+    margin-bottom: 50px;
+  }
+  .accessibility h1{
+    height: 165px;
+    margin: 0 auto;
+  }
+  .accessibility .info{
+    max-width: none;
+  }
+  .accessibility .figures{
+    margin-top: 30px;
+  }
+  .accessibility figure{
+    transform: translate(20px, 0);
+  }
 }
 
 /* AR  */
